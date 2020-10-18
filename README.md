@@ -7,17 +7,6 @@ Face detection has been a computationally complex problem to solve: including th
 This design is hence focused on developing an early system that does not depend on three-dimensional geometry. This system is efficient in its scope of usage: computationally fast and reasonably simple. 
 This system works well for constrained environments such as a household or an official environment with limited computational ability.
 
-# Working and Explanations
-In 1997, Pentland and Moghaddam proposed a differential eigenspace-based approach that allows the application of statistical analysis in the recognition process.
-Lower-dimensional feature vectors are used to approximate the face vectors (face images) in eigenspace-based approaches.
-The above-mentioned approaches consider an off-line phase of training, where the projection matrix (W∈ RN ×m), the one that achieves the dimensional reduction, is obtained by utilizing all the face images in the database.
-The mean face (x) and the reduced representation of each database image (pk) are also calculated in the off-line phase.
-There are a few steps involved in the detection of facial features: as described in [7], a preliminary module transforms the face image into a unitary vector (a module that implements normalization) and then performs a subtraction of the mean face. The resulting vector is projected using the projection matrix. This projection depends on the Eigenspace method that is used (PCA, FLD, etc.).
-This projection corresponds to a dimensional reduction of the input, starting with vectors in RN (where N is the dimension of the image vectors) and obtaining the projected vectors q, belonging to Rm, with m<N. It is a weighted assumption of the usual case that m<<N. 
-Then we note the similarity of q against each of the reduced vectors. This similarity can be computed using many parameters. One such parameter is the Euclidean distance.
-When the vector q is compared with the reduced vectors, we can identify the class of the vector that is most similar to q.
-Therefore, theoretically, it is imperative to maintain another class that may be labeled as a “Rejection Class”, or system, to use for when the similarity is not good enough.
-
 # References
 1. P. Viola and M. Jones, ​Rapid Object Detection using a Boosted Cascade of Simple Features,​ in the Accepted Conference on Computer Vision And Pattern Recognition, 2001.
 2. M. A. Turk and A. P. Pentland, ​Face Recognition using Eigenfaces,​ in Proceedings CVPR ‘91.
