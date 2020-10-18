@@ -19,14 +19,14 @@ When the vector q is compared with the reduced vectors, we can identify the clas
 Therefore, theoretically, it is imperative to maintain another class that may be labeled as a “Rejection Class”, or system, to use for when the similarity is not good enough.
 
 # References
-[1] P. Viola and M. Jones, ​Rapid Object Detection using a Boosted Cascade of Simple Features,​ in the Accepted Conference on Computer Vision And Pattern Recognition, 2001.
-[2] M. A. Turk and A. P. Pentland, ​Face Recognition using Eigenfaces,​ in Proceedings CVPR ‘91.
-[3] Chen Yu, ​Linear Algebra and Face Recognition,​ Class at Indiana University.
-[4] CP Papageorgiou and Micheal Oren, General framework for object detection,​ February ‘98.
-[5]Rohan Gupta, ​Breaking Down Facial Recognition: The Viola-Jones Algorithm, August 7, 2019.
-[6] N. Belhumeur, P. Hespanha and J. Kriegman,​ Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection,​ IEEE Transactions On Pattern Analysis And Machine Intelligence, Vol. 19, No. 7, July 1997.
-[7] B. Moghaddam and A. P. Pentland,
+1. P. Viola and M. Jones, ​Rapid Object Detection using a Boosted Cascade of Simple Features,​ in the Accepted Conference on Computer Vision And Pattern Recognition, 2001.
+2. M. A. Turk and A. P. Pentland, ​Face Recognition using Eigenfaces,​ in Proceedings CVPR ‘91.
+3. Chen Yu, ​Linear Algebra and Face Recognition,​ Class at Indiana University.
+4. CP Papageorgiou and Micheal Oren, General framework for object detection,​ February ‘98.
+5. Rohan Gupta, ​Breaking Down Facial Recognition: The Viola-Jones Algorithm, August 7, 2019.
+6. N. Belhumeur, P. Hespanha and J. Kriegman,​ Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection,​ IEEE Transactions On Pattern Analysis And Machine Intelligence, Vol. 19, No. 7, July 1997.
+7. B. Moghaddam and A. P. Pentland,
 Probabilistic Visual Learning for Object
 Representation, ​IEEE Transactions on Pattern Analysis and Machine Intelligence, July 1997.
-[8] A. S. Khan, L. K. Alizai, ​Introduction to Face Detection Using Eigenfaces, IEEE--ICET 2006 2nd International Conference on Emerging Technologies Peshawar, Pakistan, 13-14, November 2006.
-[9] ZW Chan, ​Face Recognition using Eigenfaces, ​GitHub publication, usage in code for training data.
+8. A. S. Khan, L. K. Alizai, ​Introduction to Face Detection Using Eigenfaces, IEEE--ICET 2006 2nd International Conference on Emerging Technologies Peshawar, Pakistan, 13-14, November 2006.
+9. ZW Chan, ​Face Recognition using Eigenfaces, ​GitHub publication, usage in code for training data.
